@@ -9,7 +9,22 @@ Built secure AWS infrastructure with Terraform: VPC, public subnet, IGW, route t
 - Security Group - Allow SSH (22) and HTTP (80) only
 - S3 Bucket - Versioning Enabled, AES256 Encryption, Public Access Blocked
 - IAM Role for EC2
+## Screenshots
 
+### VPC
+![VPC](images/vpc.png)
+
+### Subnet
+![Subnet](images/subnet.png)
+
+### S3 Bucket
+![S3 Bucket](images/s3-bucket.png)
+
+### Security Group
+![Security Group](images/security-group.png)
+
+### IAM Role
+![IAM Role](images/iam-role.png)
 ## How to Run
 ```bash
 terraform init
